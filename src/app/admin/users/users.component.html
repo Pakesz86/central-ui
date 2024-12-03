@@ -1,0 +1,22 @@
+<div class="main_component">
+  <div class="title-bar">
+    <h1>Felhasználók</h1>
+    <button mat-icon-button matTooltip="Új felhasználó"
+            [matTooltipShowDelay]="1000"
+            (click)="openNewDialog()">
+      <mat-icon>add</mat-icon>
+    </button>
+  </div>
+
+  <app-reusable-table #reusableTable
+                      [columns]="columns"
+                      [actionsTemplate]="actionsTemplate"
+                      [fetchData]="userService.getAll.bind(userService)"></app-reusable-table>
+  <ng-template #actionsTemplate let-element>
+    <button mat-icon-button matTooltip="Szerkesztés"
+            [matTooltipShowDelay]="1000"
+            (click)="openEditDialog(element)">
+      <mat-icon>edit</mat-icon>
+    </button>
+  </ng-template>
+</div>

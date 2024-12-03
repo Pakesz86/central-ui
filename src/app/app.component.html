@@ -1,0 +1,63 @@
+<mat-sidenav-container>
+  <mat-sidenav #sidenav>
+    <app-menu (selectedPage)="changePage($event)"
+              (onCloseSidenav)="onSidenavClose($event, sidenav)"
+              [loggedIn]="loggedIn"
+              [isAdmin]="isAdmin"></app-menu>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary" class="custom-toolbar w-full">
+      <!-- Mobile Menu Button -->
+      <div class="block sm:hidden">
+        <button mat-icon-button (click)="onToggleSidenav(sidenav)">
+          <mat-icon>menu</mat-icon>
+        </button>
+      </div>
+
+      <!-- Home Link -->
+      <div>
+        <a routerLink="/" class="toolbar-title">Home</a>
+      </div>
+
+
+      <div class="sm:hidden justify-content-end">
+        <ul class="navigation-items">
+          <li *ngIf="loggedIn && isAdmin">
+            <a routerLink="/admin/users" mat-button>
+              Felhasználók
+            </a>
+          </li>
+          <li *ngIf="loggedIn && isAdmin">
+            <a routerLink="/admin/content" mat-button>
+              Tárgyak
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="block sm:hidden justify-content-end navigation-items">
+        <button *ngIf="loggedIn"
+                mat-button
+                class="mat-toolbar"
+                (click)="onProfile()">
+          Profil
+        </button>
+
+        <mat-icon *ngIf="!loggedIn"
+                  mat-icon-button aria-hidden="false"
+                  (click)="onLogin()"
+                  matTooltip="Bejelentkezés">
+          login
+        </mat-icon>
+
+        <mat-icon *ngIf="loggedIn"
+                  (click)="onLogoutUser()"
+                  matTooltip="Kilentkezés"
+                  mat-icon-button aria-hidden="false">
+          logout
+        </mat-icon>
+      </div>
+    </mat-toolbar>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

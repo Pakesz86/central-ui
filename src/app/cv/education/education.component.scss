@@ -1,0 +1,117 @@
+.main_component {
+  max-width: 1000px !important;
+  padding-top: 200px !important;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+}
+
+
+.timeline {
+  position: relative;
+  padding-left: 20px;
+  border-left: 3px solid #3f51b5;
+
+  padding-top: 100px !important;
+
+  .timeline-item {
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .timeline-dot {
+    position: absolute;
+    left: -8px;
+    top: 10px;
+    width: 16px;
+    height: 16px;
+    background-color: #3f51b5;
+    border-radius: 50%;
+  }
+
+  .timeline-content {
+    margin-left: 20px;
+    padding: 10px;
+  }
+}
+
+
+.education-content {
+  text-align: center;
+  padding: 20px;
+}
+
+.education-content img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+
+.language-selector {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.flag-icon {
+  width: 24px;
+  height: 16px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.form-select {
+  padding-left: 12px;
+  padding-right: 30px;
+  border-radius: 20px;
+  min-width: 160px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover állapot */
+.form-select:hover {
+  border-color: #007bff;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
+}
+
+/* Dropdown lista (nyitott állapot) */
+.form-select:focus {
+  border-color: #007bff;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+}
+
+/* Dropdown lista elemei */
+.form-select option {
+  border-radius: 10px;
+  padding: 10px;
+  background: #fff;
+  transition: background 0.2s ease-in-out;
+}
+
+/* Hover effekt a listaelemeknél */
+.form-select option:hover {
+  background: #f0f0f0;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 1.4; /* Növeli a sorok közötti távolságot */
+}

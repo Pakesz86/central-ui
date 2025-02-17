@@ -1,23 +1,43 @@
-<div class="main_component">
-  <div class="col-12">
-    <mat-card class="col-6" appearance="outlined">
-      <mat-card-header>
-        <div mat-card-avatar class="example-header-image"></div>
-        <mat-card-title>Shiba Inu</mat-card-title>
-        <mat-card-subtitle>Dog Breed</mat-card-subtitle>
-      </mat-card-header>
-          <img mat-card-image src="/assets/img/shiba2.jpg" alt="Photo of a Shiba Inu">
-      <mat-card-content>
-        <p>
-          The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-          A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-          bred for hunting.
-        </p>
-      </mat-card-content>
-      <mat-card-actions>
-        <button mat-button>LIKE</button>
-        <button mat-button>SHARE</button>
-      </mat-card-actions>
-    </mat-card>
+<div class="row" style="margin-top:70px">
+  <div class="col-lg-3 col-sm-12">
+    <div class="profile-card">
+
+      <img src="/assets/img/pictureMe.jpg" alt="Profilkép" class="profile-img">
+
+      <div class="profile-name">{{ 'PROFILE.NAME' | translate }}</div>
+      <div class="profile-description">{{ 'PROFILE.TITLE' | translate }}</div>
+      <div class="profile-description" style="margin-bottom: 1rem">(Java, Angular, Android, .NET)</div>
+      <div class="profile-description">Serbia, Horgos</div>
+      <div class="profile-description">pakesz86&#64;gmail.com</div>
+      <div class="profile-description" style="margin-bottom: 1rem">mob: +381 (0) 69 69 85 21</div>
+
+      <button mat-icon-button style="all: unset; vertical-align: center" (click)="downloadPDF()" >
+          <mat-icon svgIcon="download" ></mat-icon>
+        {{ 'PROFILE.CV_DOWNLOAD' | translate }}
+      </button>
+
+      <div class="mat-card-actions">
+        <a href="https://www.facebook.com/profile.php?id=100009287372040" target="_blank">
+            <mat-icon svgIcon="facebook"></mat-icon>
+        </a>
+        <a href="https://www.linkedin.com/in/endre-pakai-6319a37a/" target="_blank">
+            <mat-icon svgIcon="linkedin"></mat-icon>
+        </a>
+        <a href="https://github.com/Pakesz86" target="_blank">
+            <mat-icon svgIcon="github"></mat-icon>
+        </a>
+        <a href="skype:live:pakesz86?chat" target="_blank">
+            <mat-icon svgIcon="skype"></mat-icon>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-7 col-sm-12" style="padding: 2rem;">
+    <h1 style="padding-top:15px; text-align: left; margin-bottom: 2rem;">
+      {{ 'PROFILE.DESCRIPTION_TITLE' | translate }}
+    </h1>
+    <p class="profile-description">
+      {{ 'PROFILE.DESCRIPTION' | translate }}
+    </p>
   </div>
 </div>

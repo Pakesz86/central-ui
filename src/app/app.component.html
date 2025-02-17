@@ -8,7 +8,7 @@
   <mat-sidenav-content>
     <mat-toolbar color="primary" class="custom-toolbar w-full">
       <!-- Mobile Menu Button -->
-      <div class="block sm:hidden">
+      <div *ngIf="(isSmallScreen | async)">
         <button mat-icon-button (click)="onToggleSidenav(sidenav)">
           <mat-icon>menu</mat-icon>
         </button>
@@ -16,48 +16,41 @@
 
       <!-- Home Link -->
       <div>
-        <a routerLink="/" class="toolbar-title">Home</a>
+        <a routerLink="/" class="toolbar-title">{{ 'PROFILE.NAME' | translate }}</a>
       </div>
 
-
-      <div class="sm:hidden justify-content-end">
-        <ul class="navigation-items">
-          <li *ngIf="loggedIn && isAdmin">
-            <a routerLink="/admin/users" mat-button>
-              Felhasználók
+      <div>
+        <ul *ngIf="!(isSmallScreen | async)" class="navigation-items">
+          <li>
+            <a routerLink="/cv/education" routerLinkActive="active-link" mat-button>
+              {{ 'MENU.EDUCATION' | translate }}
             </a>
           </li>
-          <li *ngIf="loggedIn && isAdmin">
-            <a routerLink="/admin/content" mat-button>
-              Tárgyak
+          <li>
+            <a routerLink="/cv/experience" routerLinkActive="active-link" mat-button>
+              {{ 'MENU.EXPERIENCE' | translate }}
+            </a>
+          </li>
+          <li>
+            <a routerLink="/cv/skills" routerLinkActive="active-link" mat-button>
+              {{ 'MENU.SKILLS' | translate }}
             </a>
           </li>
         </ul>
       </div>
 
-      <div class="block sm:hidden justify-content-end navigation-items">
-        <button *ngIf="loggedIn"
-                mat-button
-                class="mat-toolbar"
-                (click)="onProfile()">
-          Profil
-        </button>
-
-        <mat-icon *ngIf="!loggedIn"
-                  mat-icon-button aria-hidden="false"
-                  (click)="onLogin()"
-                  matTooltip="Bejelentkezés">
-          login
-        </mat-icon>
-
-        <mat-icon *ngIf="loggedIn"
-                  (click)="onLogoutUser()"
-                  matTooltip="Kilentkezés"
-                  mat-icon-button aria-hidden="false">
-          logout
-        </mat-icon>
+      <div class="block d-flex justify-content-end align-items-center navigation-items">
+        <div class="language-selector">
+          <img *ngIf="!(isSmallScreen | async)" [src]="getFlag(selectedLanguage)" alt="Flag" class="flag-icon">
+          <select class="form-select rounded-pill" [(ngModel)]="selectedLanguage" (change)="changeLanguage($event)">
+            <option value="hu">{{ 'LANGUAGE.HU' | translate }}</option>
+            <option value="en">{{ 'LANGUAGE.EN' | translate }}</option>
+            <option value="sr">{{ 'LANGUAGE.SR' | translate }}</option>
+          </select>
+        </div>
       </div>
     </mat-toolbar>
+
     <router-outlet></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>

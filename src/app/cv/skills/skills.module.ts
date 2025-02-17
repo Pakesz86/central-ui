@@ -1,12 +1,10 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 
-import {HomeRoutingModule} from './home-routing.module';
-import {HomeComponent} from './home.component';
+import {SkillsRoutingModule} from './skills-routing.module';
+import {SkillsComponent} from './skills.component';
 import {MatCardModule} from '@angular/material/card';
-import { MatIconModule } from '@angular/material/icon';
-
-
+import { MatChipsModule } from '@angular/material/chips';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
@@ -19,23 +17,23 @@ export function createTranslateLoader(http: HttpClient) {
 
 @NgModule({
   declarations: [
-    HomeComponent
+    SkillsComponent
   ],
   imports: [
     CommonModule,
     MatCardModule,
-    MatIconModule,
-    HomeRoutingModule,
+    SkillsRoutingModule,
+    MatChipsModule,
     HttpClientModule,
     TranslateModule.forRoot({
-      loader: {
-        provide: TranslateLoader,
-        useFactory: createTranslateLoader,
-        deps: [HttpClient]
-      }
+     loader: {
+       provide: TranslateLoader,
+       useFactory: createTranslateLoader,
+       deps: [HttpClient]
+     }
     }),
     FormsModule
   ]
 })
-export class HomeModule {
+export class SkillsModule {
 }

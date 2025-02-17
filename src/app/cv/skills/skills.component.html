@@ -1,0 +1,55 @@
+<div style="margin-top:70px"></div>
+
+<div class="card-container">
+  <ng-container *ngFor="let skill of skillKeys">
+    <div *ngIf="skillsMap.has(skill)">
+      <ng-container *ngTemplateOutlet="courseCard;
+                  context: {
+                  title: skillsMap.get(skill)?.title,
+                  descriptionTitle: skillsMap.get(skill)?.descriptionTitle,
+                  description: skillsMap.get(skill)?.description,
+                  videoId: skillsMap.get(skill)?.videoId,
+                  tags: skillsMap.get(skill)?.tags
+                  }">
+      </ng-container>
+    </div>
+  </ng-container>
+</div>
+
+<ng-template #courseCard
+             let-title="title"
+             let-descriptionTitle="descriptionTitle"
+             let-description="description"
+             let-videoId="videoId"
+             let-tags="tags">
+  <div class="card-item">
+    <mat-card class="mat-mdc-card mdc-card cardWithShadow overflow-hidden">
+      <div class="bg-primary course-header d-flex justify-content-between p-12 text-white mat-content-bg">
+        <mat-card-title class="mat-mdc-card-title m-b-0 f-s-16">
+          {{ title }}
+        </mat-card-title>
+      </div>
+
+      <mat-card-content>
+        <h3 style="margin-top:5px">{{ descriptionTitle }}</h3>
+        <span class="f-s-12 text-wrap">{{ description }}</span>
+
+        <div *ngIf="videoId" class="video-container">
+          <iframe
+            [src]="videoId"
+            frameborder="0"
+            allowfullscreen
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+          </iframe>
+        </div>
+
+        <mat-chip-set aria-label="Skill selection">
+          <mat-chip *ngFor="let tag of tags">
+            {{ tag }}
+          </mat-chip>
+        </mat-chip-set>
+
+      </mat-card-content>
+    </mat-card>
+  </div>
+</ng-template>

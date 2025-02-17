@@ -1,8 +1,3 @@
-.main_component {
-  max-width: 1000px !important;
-  padding-top: 200px !important;
-}
-
 h1 {
   font-weight: bolder;
   font-size: 50px;
@@ -14,3 +9,137 @@ h2 {
   width: 100%;
   text-align: center;
 }
+
+
+a {
+  all: unset; /* Eltávolítja az összes örökölt és alapértelmezett stílust */
+
+  /* Saját stílusok */
+  color: #3f51b5;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #3f51b5;
+  border-radius: 5px;
+}
+
+a:hover {
+  color: #ffffff;
+  background-color: #3f51b5;
+}
+
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.profile-card {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+  margin: auto;
+}
+
+.profile-img {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #3f51b5;
+}
+
+.profile-name {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.profile-description {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #666;
+}
+
+.mat-card-actions {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.mat-icon-button {
+  border: none;
+  background: none;
+  height: 20px;
+  padding: 10px;
+}
+
+.mat-icon {
+  font-size: 50px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) { /* Small screens */
+  .profile-card {
+    transform: scale(1.1);
+  }
+
+  .col-lg-4 {
+    text-align: center;
+  }
+
+  .profile-description {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 992px) { /* Large screens */
+  .profile-card {
+    transform: scale(0.9);
+  }
+}
+
+
+
+button button:hover, button:active {
+  cursor: pointer;
+}
+
+.example-button-row button,
+.example-button-row a {
+  margin-right: 8px;
+}
+
+/* Success syling */
+
+.mat-button.mat-success,
+.mat-stroked-button.mat-success {
+    color: #155724;
+}
+.mat-button.mat-success:hover,
+.mat-stroked-button.mat-success:hover {
+  background-color: #f0fff3;
+}
+
+.mat-raised-button.mat-success,
+.mat-flat-button.mat-success,
+.mat-fab.mat-success,
+.mat-mini-fab.mat-success {
+  color: #f0fff3;
+  background-color: #155724;
+}
+
+.mat-icon-button.mat-success {
+  color:#155724;
+}
+

@@ -1,0 +1,17 @@
+<mat-tab-group style="margin-top:70px">
+  <mat-tab *ngFor="let education of educationList" [label]="education.label | translate ">
+    <div class="education-content">
+
+      <h1 style="margin-bottom: 15px">{{ education.name  | translate }}</h1>
+      <h2>{{ education.profession | translate  }}</h2>
+      <h2>{{ education.description | translate  }}</h2>
+      <p>{{ education.interval | translate  }}</p>
+
+      <div *ngFor="let image of education.images">
+        <img [src]="image" [alt]="image" />
+      </div>
+
+    </div>
+  </mat-tab>
+</mat-tab-group>
+

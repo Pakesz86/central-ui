@@ -1,0 +1,73 @@
+.main_component {
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+}
+
+
+.cv-card {
+  margin: 20px 20px;
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+
+.col-content-center {
+  display: flex;
+  flex-direction: column;  /* A tartalom függőleges irányban legyen */
+  justify-content: center; /* Középre igazítás a függőleges tengelyen */
+  align-items: center;     /* Középre igazítás a vízszintes tengelyen */
+  text-align: center;      /* A szöveget is középre igazítja */
+  height: 100%;            /* Ha szükséges, adhatunk magasságot az igazításhoz */
+}
+
+/* A cég logó stílusa */
+.company-logo {
+  width: 100%;             /* A kép a szülő (oszlop) szélességéhez igazodik */
+  height: auto;            /* Magasság automatikusan arányosan beállítva */
+  object-fit: contain;     /* A képek nem torzulnak */
+  margin-bottom: 15px;     /* Ha szükséges, térköz a kép alatt */
+}
+
+
+
+
+.company-info h2, h4 {
+  margin: 0;
+}
+
+mat-divider {
+  margin: 12px 0;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+mat-chip {
+  font-size: 14px;
+}

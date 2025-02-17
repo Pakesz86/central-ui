@@ -1,5 +1,7 @@
 import {Component, EventEmitter, Input, Output} from '@angular/core';
 
+import { TranslateService } from '@ngx-translate/core';
+
 @Component({
   selector: 'app-menu',
   templateUrl: './menu.component.html',
@@ -11,6 +13,11 @@ export class MenuComponent {
   @Input() currentPage!: string;
   @Input() loggedIn!: boolean;
   @Input() isAdmin!: boolean;
+
+  constructor(private translate: TranslateService){
+
+
+    }
 
   menuSwitch() {
     this.selectedPage.emit(this.currentPage);

@@ -1,0 +1,42 @@
+<div style="margin-top: 80px;"></div>
+<div *ngFor="let job of jobs">
+    <div *ngIf="experiencesMap.has(job)">
+        <mat-card class="cv-card">
+            <div class="row">
+
+                <div class="col-lg-2 col-content-center">
+                    <img class="company-logo" [src]="'assets/logo/' + (experiencesMap.get(job)?.picture || '') + '.png'" />
+                    <h4>{{ experiencesMap.get(job)?.name }}</h4>
+                    <p>{{ experiencesMap.get(job)?.address }}</p>
+                    <a [href]="'https://' + experiencesMap.get(job)?.web" target="_blank">{{
+                        experiencesMap.get(job)?.web }}</a>
+                </div>
+
+                <div class="col-lg-8">
+                    <mat-card-content>
+                        <div class="company-info">
+                            <h2 style="text-align:left">{{ experiencesMap.get(job)?.title }}</h2>
+                            <h4 style="font-weight: bold; margin-bottom:10px;">{{ experiencesMap.get(job)?.interval
+                                }}</h4>
+                            <p>{{ experiencesMap.get(job)?.description }}</p>
+                        </div>
+                        <ul>
+                            <li *ngFor="let role of experiencesMap.get(job)?.roles">
+                                {{ role }}
+                            </li>
+                        </ul>
+                    </mat-card-content>
+                </div>
+
+                <div class="col-lg-2">
+                    <mat-card-actions class="chips">
+                        <mat-chip *ngFor="let skill of experiencesMap.get(job)?.skills">
+                            {{ skill }}
+                        </mat-chip>
+                    </mat-card-actions>
+                </div>
+            </div>
+
+        </mat-card>
+    </div>
+</div>

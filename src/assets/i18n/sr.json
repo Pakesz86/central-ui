@@ -1,0 +1,250 @@
+{
+  "WELCOME": "Dobrodošli na stranicu!",
+  "MENU": {
+    "EDUCATION": "Obrazovanje",
+    "EXPERIENCE": "Iskustvo",
+    "HOBBIES": "Hobiji",
+    "SKILLS": "Veštine"
+  },
+  "PROFILE": {
+    "NAME": "Endre Pakai",
+    "TITLE": "Full Stack Developer",
+    "CV_DOWNLOAD": "Preuzmi CV",
+    "DESCRIPTION_TITLE": "Uvod:",
+    "DESCRIPTION": "Ja sam entuzijastičan softverski inženjer sa više od 10 godina iskustva, učestvujući u celokupnom životnom ciklusu razvoja aplikacija i uspešno lansirajući različite proizvode. Uvek sam željan da proširim svoje znanje, posebno u oblastima novih tehnologija poput veštačke inteligencije, dok istovremeno usavršavam postojeće veštine.\n\nRođen sam 7. januara 1986. godine u Zrenjaninu, a sa 10 godina preselio sam se u Suboticu, gde sam uspešno završio školovanje. Od detinjstva imam dve glavne strasti: crtanje i računare/elektroniku – zapravo, sve što mogu da popravljam i prilagođavam. Programiranje je postalo prirodni nastavak ove strasti, jer mi omogućava da iz ničega stvorim nešto, slično naprednom obliku \"majstorisanja\".\n\nPrvobitno sam pohađao srednju školu za grafički dizajn, ali me interesovanje za tehnologiju navelo da se preusmerim na IT, posebno programiranje. Užívam u učenju novih stvari, praćenju tehnoloških inovacija i stalnom unapređivanju svojih veština.\n\nIako na prvi pogled mogu delovati povučeno ili introvertno, smatram sebe prijateljskom i otvorenom osobom. Tokom godina stekao sam veliko iskustvo u dizajniranju i razvoju softvera, što mi omogućava da projektima pristupam na strukturiran i inovativan način."
+  },
+  "EDUCATION": {
+    "COLLAGE": {
+      "TAB_TITLE": "Fakultet",
+      "SCHOOL_NAME": "Visoka Tehnička Škola Subotica",
+      "PROFESSION": "Internet i Elektronska Administracija – Računarski Inženjering (BSc)",
+      "INTERVAL": "1. oktobar 2009. – 31. jul 2013.",
+      "DESCRIPTION": "Tokom studija naučio sam osnove programiranja i dizajniranja softvera."
+    },
+    "HIGH_SCHOOL": {
+      "TAB_TITLE": "Srednja Škola",
+      "SCHOOL_NAME": "Politehnička Škola Subotica",
+      "PROFESSION": "Tipograf / Grafički Dizajner",
+      "INTERVAL": "1. septembar 2000. – 31. jul 2004.",
+      "DESCRIPTION": "Specijalizovao sam se za tipografiju, fokusirajući se na predpripremu za štampu u grafičkoj industriji."
+    }
+  },
+  "EXPERIENCE": {
+    "IP_ENERGY": {
+      "PICTURE": "ip_energy",
+      "NAME": "IP Energy Software",
+      "ADDRESS": "Srbija, Subotica",
+      "WEB": "www.ipenergysoftware.rs",
+      "TITLE": "Full Stack Developer",
+      "INTERVAL": "10/2018 do danas",
+      "DESCRIPTION": "Glavni fokus kompanije je u sektoru energetike, gde razvijaju web platforme za lakše fakturisanje, balansiranje opterećenja i prognozu. Podružnica IP Energy-a, Navitasoft, zapravo se prijavljuje za evropske fondove i takođe obavlja razvojne zadatke za Suboticu.",
+      "ROLES": [
+        "Razvijanje novih funkcionalnosti na backendu i frontendu (Spring Boot 2+, Angular)",
+        "Dizajniranje i implementacija web servisa, razvoj REST API-ja",
+        "Održavanje i refaktorisanje koda (Java), optimizacija performansi",
+        "Pisanje jedinicnih i integracionih testova (sledeći TDD metodologiju)",
+        "Upravljanje i optimizacija baze podataka",
+        "Podrška CI/CD procesima, rad sa Jenkins, Docker i Hibernate"
+      ],
+      "SKILLS": [
+        "Spring Boot",
+        "Angular",
+        "Java",
+        "REST API",
+        "TDD/BDD",
+        "CI/CD",
+        "Git",
+        "Jenkins",
+        "Hibernate",
+        "Scrum"
+      ]
+    },
+    "EVOSOFT": {
+      "PICTURE": "evosoft",
+      "NAME": "evosoft Hungary Kft",
+      "ADDRESS": "Mađarska, Szeged",
+      "WEB": "www.evosoft.hu",
+      "TITLE": ".NET Developer",
+      "INTERVAL": "07/2017 do 10/2018",
+      "DESCRIPTION": "Glavni fokus kompanije bio je razvoj alata za razvoj softvera za Siemens Tiaportál, specijalno prilagođen njihovim potrebama. Ovaj alat je kreiran isključivo za Siemens i služi kao interno rešenje za pojednostavljivanje njihovih operacija i unapređenje njihovih razvojenih radnih tokova.",
+      "ROLES": [
+        "Razvijanje novih funkcionalnosti u desktop aplikacijama",
+        "Održavanje postojećeg koda",
+        "Istraživanje i merenje performansi",
+        "Pisanje i proširivanje dokumentacije",
+        "Uvođenje novih test slučajeva"
+      ],
+      "SKILLS": [
+        "C#",
+        ".NET Framework",
+        "TDD",
+        "TFS",
+        "MsSql",
+        "Scrum"
+      ]
+    },
+    "NEWLINE": {
+      "PICTURE": "newline",
+      "NAME": "NewLine Technologies Kft",
+      "ADDRESS": "Mađarska, Szeged",
+      "WEB": "www.newlinekft.hu",
+      "TITLE": "Cross-platform Developer",
+      "INTERVAL": "02/2016 do 06/2017",
+      "DESCRIPTION": "New Line Kft. je prisutna na tržištu više od 20 godina. Njena glavna snaga leži u integraciji i razvoju inteligentnih saobraćajnih sistema. Njihova softverska i hardverska rešenja mogu se pronaći u vozilima, na stajalištima, železničkim stanicama i centralnim sistemima, čime poboljšavaju funkcionisanje saobraćajnih operacija.",
+      "ROLES": [
+        "Razvijanje novih funkcionalnosti i izgradnja celokupnog sistema u C# Xamarin",
+        "Održavanje postojećeg Android koda",
+        "Pisanje celokupne dokumentacije",
+        "Mentorisanje novih kolega"
+      ],
+      "SKILLS": [
+        "C#",
+        "Java",
+        ".NET Framework",
+        "Xamarin",
+        "TFS",
+        "Scrum"
+      ]
+    },
+    "MANUFAKTURA": {
+      "PICTURE": "manufaktura",
+      "NAME": "Manufaktura d.o.o.",
+      "ADDRESS": "Srbija, Subotica",
+      "WEB": "www.manufaktura.rs",
+      "TITLE": ".NET Developer i Tester",
+      "INTERVAL": "08/2013 do 01/2016",
+      "DESCRIPTION": "Kompanija sa 14 godina međunarodnog iskustva i timom od 22 visoko obrazovana stručnjaka, uključujući programere, matematičare, elektronike inženjere i dizajnere, u potpunosti je posvećena malom broju klijenata. Nude skalabilne i fleksibilne projektne timove prilagođene potrebama specifičnih klijenata.",
+      "ROLES": [
+        "Razvijanje i prezentovanje novih funkcionalnosti",
+        "Razvijanje i testiranje postojećih REST API servisa",
+        "Automatizacija Photoshopa iz C# koda"
+      ],
+      "SKILLS": [
+        "C#",
+        ".NET Framework",
+        "Photoshop SDK",
+        "Illustrator SDK",
+        "Scrum"
+      ]
+    }
+  },
+  "SKILLS": {
+    "WEB": {
+      "TITLE": "Veb razvoj",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION":  "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "Backend: Java (Spring Boot)",
+        "Frontend: Angular",
+        "OpenAPI",
+        "Hibernate",
+        "Kafka"
+      ]
+    },
+    "DESKTOP": {
+      "TITLE": "Razvoj desktop aplikacija",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION":  "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "C# (.NET Framework, .NET Core)"
+      ]
+    },
+    "MOBILE": {
+      "TITLE": "Razvoj mobilnih aplikacija",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION":  "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "Android (Java)"
+      ]
+    },
+    "DATABASE": {
+      "TITLE": "Upravljanje bazama podataka",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION":  "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "MySql", "MSSQL", "Postgres", "Oracle"
+      ]
+    },
+    "VERSION": {
+      "TITLE": "Kontrola verzija",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION":  "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "Git", "SVN", "TFS", "Jenkins (CI)"
+      ]
+    },
+    "GRAPHIC": {
+      "TITLE": "Grafički dizajn",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION":  "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "Photoshop", "Illustrator", "InDesign", "MsOffice"
+      ]
+    },
+    "MANAGEMENT": {
+      "TITLE": "Upravljanje projektima",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION":  "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "Agile", "SCRUM", "Waterfall"
+      ]
+    },
+    "LANGUAGES": {
+      "TITLE": "Jezici",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION":  "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "Native Language: Hungarian",
+        "Serbian: B1 (Speaking) B2 (Reading, Writing)",
+        "English: B1 (Speaking) B2 (Reading, Writing)"
+      ]
+    },
+    "DRIVER": {
+      "TITLE": "Vozačka dozvola",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION":  "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "B2"
+      ]
+    },
+    "CITIZENSHIP": {
+      "TITLE": "Državljanstvo",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION":  "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "Hungarian", "Serbian"
+      ]
+    },
+    "DIY": {
+      "TITLE": "Uradi sam projekat",
+      "DESCRIPTION_TITLE": "Arduino klavir",
+      "DESCRIPTION": "Napravio sam ovaj „uradi sam” prototip zasnovan na Arduino Mega sa ciljem da ga kasnije integrišem u sintisajzer. Na taj način će ne samo izgledati estetski lepše, već će biti privlačniji i lakši za korišćenje deci.\n\nOvaj uređaj sam napravio kako bih na zabavan način podučavao svoju decu muzici—bez potrebe da sam učim da sviram. Prototip radi jednostavno: prvo se ubacuje SD kartica na koju su prethodno prebačene MIDI datoteke. Uređaj ih učitava i reprodukuje melodiju.\n\nPored toga, dodao sam i režim učenja: tokom reprodukcije, odgovarajući tasteri svetle, omogućavajući deci da lako prate ritam i uče osnove sviranja muzike.",
+      "VIDEO_ID": "olUCGw4AyJY",
+      "TAGS": []
+    },
+    "HOBBIES": {
+      "TITLE": "Hobiji",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION":  "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "Chess", "Reading", "DIY"
+      ]
+    }
+  },
+  "LANGUAGE": {
+    "EN": "Engleski",
+    "HU": "Mađarski",
+    "SR": "Srpski"
+  }
+}

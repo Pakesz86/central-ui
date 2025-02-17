@@ -57,6 +57,13 @@ mat-sidenav {
   transform: scale(1.1);
 }
 
+/* Media Query to hide navigation items on small screens */
+@media (max-width: 600px) {
+  .navigation-items {
+    display: none;
+  }
+}
+
 mat-icon {
   color: white;
   margin-top: auto;
@@ -96,4 +103,34 @@ mat-badge {
 
 .custom-image-button:hover {
   color: #3f51b5; /* Change color on hover */
+}
+
+
+.language-selector {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.flag-icon {
+  width: 24px;
+  height: 16px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.form-select {
+  padding-left: 10px;
+  padding-right: 30px;
+  border-radius: 20px;
+  min-width: 150px;
+}
+
+.active-link {
+  background-color: #00000022; /* Kék háttér (Material Design szín) */
+  color: white !important; /* Fehér szöveg */
+  border-radius: 4px; /* Lekerekített sarkok */
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.2); /* Belső árnyék, hogy benyomott hatást keltsen */
+  transform: translateY(2px); /* Enyhén lenyomott hatás */
 }

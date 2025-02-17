@@ -1,0 +1,251 @@
+{
+  "WELCOME": "Üdv",
+  "MENU": {
+    "EDUCATION": "Oktatás",
+    "EXPERIENCE": "Tapasztalat",
+    "HOBBIES": "Hobbik",
+    "SKILLS": "Készségek"
+  },
+  "PROFILE": {
+    "NAME": "Pakai Endre",
+    "TITLE": "Full Stack Developer",
+    "CV_DOWNLOAD": "Önéletrajz Letöltése",
+    "DESCRIPTION_TITLE": "Bemutatkozás:",
+    "DESCRIPTION": "Lelkes szoftvermérnök vagyok, több mint 10 év tapasztalattal, és számos alkalmazásfejlesztési projekt teljes életciklusában részt vettem, sikeresen piacra juttatva különböző termékeket. Mindig nyitott vagyok az új ismeretekre, különösen az olyan feltörekvő technológiákra, mint a mesterséges intelligencia, miközben folyamatosan fejlesztem meglévő készségeimet.\n\n1986 Január 7-én születtem Zrenjaninban, majd 10 éves koromban Szabadkára költöztem, ahol sikeresen befejeztem tanulmányaimat. Gyermekkorom óta két fő szenvedélyem van: a rajzolás és a számítógépek/elektronika – lényegében minden, amit lehet bütykölni. A programozás emiatt is vált a szenvedélyemmé, hiszen lehetőséget ad arra, hogy a semmiből alkossak valamit, hasonlóan a kreatív \"bütyköléshez\".\nEredetileg grafikai középiskolába jártam, de a technológia iránti érdeklődésem miatt az informatika és azon belül a programozás felé fordultam. Szeretek új dolgokat tanulni, lépést tartani a fejlődéssel, és folyamatosan fejleszteni a tudásomat.\n\nBár elsőre talán zárkózottabbnak vagy távolságtartónak tűnhetek, valójában barátságos és nyitott gondolkodású embernek tartom magam. Az évek során sok tapasztalatot szereztem a szoftvertervezés és fejlesztés területén, ami lehetővé teszi, hogy strukturáltan és innovatívan közelítsek meg egy-egy projektet."
+  },
+  "EDUCATION": {
+    "COLLAGE": {
+      "TAB_TITLE": "Főiskola",
+      "SCHOOL_NAME": "Szabadkai Műszaki Szakfőiskola",
+      "PROFESSION": "Internet és Elektronikus Adminisztráció – Számítástechnikai Mérnöki Alapképzés (BSc)",
+      "INTERVAL": "2009. október 1. – 2013. július 31.",
+      "DESCRIPTION": "Főiskolai éveim alatt megismertem a programozás és szoftvertervezés alapjait."
+    },
+    "HIGH_SCHOOL": {
+      "TAB_TITLE": "Középiskola",
+      "SCHOOL_NAME": "Politechnikai Iskola Szabadka",
+      "PROFESSION": "Tipográfus és Grafikus Tervező",
+      "INTERVAL": "2000. szeptember 1. – 2004. július 31.",
+      "DESCRIPTION": "Tipográfiára specializálódtam, különös figyelmet fordítva a nyomdaipari előkészületekre."
+    }
+  },
+  "EXPERIENCE": {
+    "IP_ENERGY": {
+      "PICTURE": "ip_energy",
+      "NAME": "IP Energy Software",
+      "ADDRESS": "Szerbia, Szabadka",
+      "WEB": "www.ipenergysoftware.rs",
+      "TITLE": "Full Stack Fejlesztő",
+      "INTERVAL": "2018.10-től napjainkig",
+      "DESCRIPTION": "A cég fő fókusza az energia szektorában van, ahol webes platformokat fejlesztenek a számlázás, terheléselosztás és előrejelzés megkönnyítésére. Az IP Energy leányvállalata, a Navitasoft, EU-s támogatásokat igényel, és Subotkán is végez fejlesztési feladatokat.",
+      "ROLES": [
+        "Új funkciók fejlesztése backend és frontend oldalon (Spring Boot 2+, Angular)",
+        "Webszolgáltatások tervezése és megvalósítása, REST API-k fejlesztése",
+        "Kód karbantartása és refaktorálása (Java), teljesítményoptimalizálás",
+        "Egység- és integrációs tesztek írása (TDD módszertan követése)",
+        "Adatbázis kezelés és optimalizálás",
+        "CI/CD folyamatok támogatása, Jenkins, Docker és Hibernate használata"
+      ],
+      "SKILLS": [
+        "Spring Boot",
+        "Angular",
+        "Java",
+        "REST API",
+        "TDD/BDD",
+        "CI/CD",
+        "Git",
+        "Jenkins",
+        "Hibernate",
+        "Scrum"
+      ]
+    },
+    "EVOSOFT": {
+      "PICTURE": "evosoft",
+      "NAME": "evosoft Hungary Kft",
+      "ADDRESS": "Magyarország, Szeged",
+      "WEB": "www.evosoft.hu",
+      "TITLE": ".NET Fejlesztő",
+      "INTERVAL": "2017.07 - 2018.10",
+      "DESCRIPTION": "A cég fő fókusza egy fejlesztői eszköz kifejlesztése volt a Siemens Tiaportáljához, kifejezetten az ő igényeikre szabva. Ez az eszköz kizárólag a Siemens számára készült, és egy belső megoldás, amely elősegíti működésük és fejlesztési munkafolyamataik egyszerűsítését.",
+      "ROLES": [
+        "Új funkciók fejlesztése asztali alkalmazásokban",
+        "Meglévő kód karbantartása",
+        "Kutatás és teljesítmény mérések",
+        "Dokumentáció írása és bővítése",
+        "Új tesztesetek bevezetése"
+      ],
+      "SKILLS": [
+        "C#",
+        ".NET Framework",
+        "TDD",
+        "TFS",
+        "MsSql",
+        "Scrum"
+      ]
+    },
+    "NEWLINE": {
+      "PICTURE": "newline",
+      "NAME": "NewLine Technologies Kft",
+      "ADDRESS": "Magyarország, Szeged",
+      "WEB": "www.newlinekft.hu",
+      "TITLE": "Cross-platform Fejlesztő",
+      "INTERVAL": "2016.02 - 2017.06",
+      "DESCRIPTION": "A New Line Kft. több mint 20 éve van jelen a piacon. Fő erőssége az intelligens közlekedési rendszerek integrációja és fejlesztése. Szoftveres és hardveres megoldásaik a járműveken, a megállóhelyeken, vasútállomásokon és központi rendszerekben találhatók, ezáltal javítva a közlekedési rendszerek működését.",
+      "ROLES": [
+        "Új funkciók fejlesztése és teljes rendszer kiépítése C# Xamarin-ban",
+        "Meglévő Android kód karbantartása",
+        "Teljes dokumentáció írása",
+        "Új kollégák mentorálása"
+      ],
+      "SKILLS": [
+        "C#",
+        "Java",
+        ".NET Framework",
+        "Xamarin",
+        "TFS",
+        "Scrum"
+      ]
+    },
+    "MANUFAKTURA": {
+      "PICTURE": "manufaktura",
+      "NAME": "Manufaktura d.o.o.",
+      "ADDRESS": "Szerbia, Szabadka",
+      "WEB": "www.manufaktura.rs",
+      "TITLE": ".NET Fejlesztő és Tesztelő",
+      "INTERVAL": "2013.08 - 2016.01",
+      "DESCRIPTION": "A 14 éves nemzetközi tapasztalattal rendelkező, 22 magasan képzett szakemberből álló cég, beleértve programozókat, matematikusokat, elektronikai mérnököket és formatervezőket, teljes mértékben egy szűk ügyfélkör számára dolgozik. Skálázható és rugalmas projektcsapatokat kínálnak, amelyek az ügyfelek egyedi igényeihez igazodnak.",
+      "ROLES": [
+        "Új funkciók fejlesztése és bemutatása",
+        "Meglévő REST API szolgáltatások fejlesztése és tesztelése",
+        "Photoshop automatizálása C# kódbázisból"
+      ],
+      "SKILLS": [
+        "C#",
+        ".NET Framework",
+        "Photoshop SDK",
+        "Illustrator SDK",
+        "Scrum"
+      ]
+    }
+  },
+  "SKILLS": {
+    "WEB": {
+      "TITLE": "Webfejlesztés",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION": "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "Backend: Java (Spring Boot)",
+        "Frontend: Angular",
+        "OpenAPI",
+        "Hibernate",
+        "Kafka"
+      ]
+    },
+    "DESKTOP": {
+      "TITLE": "Asztali alkalmazás fejlesztés",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION": "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "C# (.NET Framework, .NET Core)"
+      ]
+    },
+    "MOBILE": {
+      "TITLE": "Mobilfejlesztés",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION": "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "Android (Java)"
+      ]
+    },
+    "DATABASE": {
+      "TITLE": "Adatbázis-kezelés",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION": "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "MySql", "MSSQL", "Postgres", "Oracle"
+      ]
+    },
+    "VERSION": {
+      "TITLE": "Verziókezelés",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION": "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "Git", "SVN", "TFS", "Jenkins (CI)"
+      ]
+    },
+    "GRAPHIC": {
+      "TITLE": "Grafikai tervezés",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION": "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "Photoshop", "Illustrator", "InDesign", "MsOffice"
+      ]
+    },
+    "MANAGEMENT": {
+      "TITLE": "Projektmenedzsment",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION": "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "Agile", "SCRUM", "Waterfall"
+      ]
+    },
+    "LANGUAGES": {
+      "TITLE": "Nyelvismeret",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION": "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "Anyanyelv: Magyar",
+        "Szerb: B1 (Beszéd) B2 (Olvasás, Írás)",
+        "Angol: B1 (Beszéd) B2 (Olvasás, Írás)"
+      ]
+    },
+    "DRIVER": {
+      "TITLE": "Gépjárművezetői engedély",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION": "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "B2"
+      ]
+    },
+    "CITIZENSHIP": {
+      "TITLE": "Állampolgárság",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION": "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "Magyar", "Szerb"
+      ]
+    },
+    "DIY": {
+      "TITLE": "Barkácsprojektek",
+      "DESCRIPTION_TITLE": "Arduino Zongora",
+      "DESCRIPTION": "Ezt a „csináld magad” barkácsprojektet egy Arduino Mega alapú prototípusként raktam össze azzal a céllal, hogy később beépítsem egy szintetizátorba. Így nemcsak esztétikusabb lesz, hanem a gyerekek számára is vonzóbb és könnyebben kezelhető.\n\nAz eszközt azért építettem, hogy a gyerekeimet játékosan tanítsam a zenére – anélkül, hogy nekem kellene megtanulnom játszani. A prototípus működése egyszerű: először behelyezünk egy SD-kártyát, amelyre korábban már rámásoltam MIDI fájlokat. Az eszköz ezeket beolvassa és lejátssza a dallamot.\n\nEmellett beépítettem egy tanuló módot is: a lejátszás során a megfelelő billentyűk világítanak, így a gyerekek könnyen követhetik a dallam ritmusát és elsajátíthatják a zenélés alapjait.",
+      "VIDEO_ID": "olUCGw4AyJY",
+      "TAGS": []
+    },
+    "HOBBIES": {
+      "TITLE": "Hobbi",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION": "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "Sakk", "Olvasás", "Barkácsolás"
+      ]
+    }
+  },
+  "LANGUAGE": {
+    "EN": "Angol",
+    "HU": "Magyar",
+    "SR": "Szerb"
+  }
+
+}

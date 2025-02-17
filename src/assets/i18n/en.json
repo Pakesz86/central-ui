@@ -1,0 +1,250 @@
+{
+  "WELCOME": "Welcome on the  page!",
+  "MENU": {
+    "EDUCATION": "Education",
+    "EXPERIENCE": "Experience",
+    "HOBBIES": "Hobbies",
+    "SKILLS": "Skills"
+  },
+  "PROFILE": {
+    "NAME": "Endre Pakai",
+    "TITLE": "Full Stack Developer",
+    "CV_DOWNLOAD": "Download CV",
+    "DESCRIPTION_TITLE": "Introduction:",
+    "DESCRIPTION": "I am an enthusiastic software engineer with over 10 years of experience, having participated in the full lifecycle of application development, successfully launching various products. I am always eager to expand my knowledge, particularly in emerging technologies such as AI, while continuously refining my existing skills.\n\nI was born on January 7, 1986, in Zrenjanin, and at the age of 10, I moved to Subotica, where I successfully completed my studies. Since childhood, I have had two main passions: drawing and computers/electronics—essentially, anything I could tinker with. Programming became a natural extension of this passion, as it allows me to create something from nothing, much like an advanced form of \"tinkering.\"\n\nOriginally, I pursued graphic design in high school, but my interest in technology led me to shift my focus to IT, specifically programming. I thrive on learning new things, keeping up with technological advancements, and continuously improving my skills.\n\nAlthough my first impression might come across as reserved or introverted, I consider myself a friendly and open-minded person. Over the years, I have gained extensive experience in software design and development, allowing me to approach projects with a structured and innovative mindset."
+  },
+  "EDUCATION": {
+    "COLLAGE":{
+      "TAB_TITLE": "Collage",
+      "SCHOOL_NAME": "Subotica Tech College of Applied Sciences",
+      "PROFESSION": "Internet and Electronic Administration - Computer Engineering (BSc)",
+      "INTERVAL": "October 1, 2009 – July 31, 2013",
+      "DESCRIPTION": "During my college years, I learned the basics of programming and software design."
+    },
+    "HIGH_SCHOOL":{
+      "TAB_TITLE": "High School",
+      "SCHOOL_NAME": "Polytechnic School Subotica",
+      "PROFESSION": "Typography and Graphic Designer",
+      "INTERVAL": "September 1, 2000 – July 31, 2004",
+      "DESCRIPTION": "Specialized in Typography, focusing on prepress operations in the printing industry."
+    }
+  },
+  "EXPERIENCE": {
+    "IP_ENERGY": {
+      "PICTURE": "ip_energy",
+      "NAME": "IP Energy Software",
+      "ADDRESS": "Serbia, Subotica",
+      "WEB": "www.ipenergysoftware.rs",
+      "TITLE": "Full Stack Developer",
+      "INTERVAL": "10/2018 to Present",
+      "DESCRIPTION": "The company's main focus is in the energy sector, where they develop web platforms for easier billing, load balancing, and prediction. IP Energy's subsidiary, Navitasoft, actually applies for European Union grants and also handles development tasks for Subotica.",
+      "ROLES": [
+        "Developing new features on both backend and frontend (Spring Boot 2+, Angular)",
+        "Designing and implementing web services, developing REST APIs",
+        "Code maintenance and refactoring (Java), performance optimization",
+        "Writing unit and integration tests (following the TDD methodology)",
+        "Database management and optimization",
+        "Supporting CI/CD processes, working with Jenkins, Docker, and Hibernate"
+      ],
+      "SKILLS": [
+        "Spring Boot",
+        "Angular",
+        "Java",
+        "REST API",
+        "TDD/BDD" ,
+        "CI/CD",
+        "Git",
+        "Jenkins",
+        "Hibernate",
+        "Scrum"
+      ]
+    },
+    "EVOSOFT": {
+      "PICTURE": "evosoft",
+      "NAME": "evosoft Hungary Kft",
+      "ADDRESS": "Hungary, Szeged",
+      "WEB": "www.evosoft.hu",
+      "TITLE": ".NET Developer",
+      "INTERVAL": "07/2017 to 10/2018",
+      "DESCRIPTION": "The company's primary focus was on developing a development tool for Siemens' Tiaportál, specifically tailored to their needs. This tool was created exclusively for Siemens and serves as an internal solution for streamlining their operations and enhancing their development workflows",
+      "ROLES": [
+        "Developing new features in desktop applications",
+        "Maintaining existing code",
+        "Research and performance measurements",
+        "Writing and expanding documentation",
+        "Introduction of new test cases"
+      ],
+      "SKILLS": [
+        "C#",
+        ".NET Framework",
+        "TDD",
+        "TFS",
+        "MsSql",
+        "Scrum"
+      ]
+    },
+    "NEWLINE": {
+      "PICTURE": "newline",
+      "NAME": "NewLine Technologies Kft",
+      "ADDRESS": "Hungary, Szeged",
+      "WEB": "www.newlinekft.hu",
+      "TITLE": "Cross-platform Developer",
+      "INTERVAL": "02/2016 to 06/2017",
+      "DESCRIPTION": "The New Line Kft. has been present in the market for over 20 years. Its main strength lies in the integration and development of intelligent transportation systems. Their software and hardware solutions can be found in vehicles, at bus stops, railway stations, and in central systems, streamlining transportation operations.",
+      "ROLES": [
+        "Developing new features and building the entire system in C# Xamarin",
+        "Maintaining existing Android code",
+        "Writing complete documentation",
+        "Mentoring new colleagues"
+      ],
+      "SKILLS": [
+        "C#",
+        "Java",
+        ".NET Framework",
+        "Xamarin",
+        "TFS",
+        "Scrum"
+      ]
+    },
+    "MANUFAKTURA": {
+      "PICTURE": "manufaktura",
+      "NAME": "Manufaktura d.o.o.",
+      "ADDRESS": "Serbia, Subotica",
+      "WEB": "www.manufaktura.rs",
+      "TITLE": ".NET developer and tester",
+      "INTERVAL": "08/2013 to 01/2016",
+      "DESCRIPTION": "With 14 years of international experience and a team of 22 highly educated professionals, including programmers, mathematicians, electronic engineers, and designers, the company is fully dedicated to a select number of clients. They offer scalable and flexible project teams tailored to meet specific client needs.",
+      "ROLES": [
+        "Developing and presenting new features",
+        "Developing and testing existing REST API services",
+        "Automating Photoshop from a C# codebase"
+      ],
+      "SKILLS": [
+        "C#",
+        ".NET Framework",
+        "Photoshop SDK",
+        "Illustrator SDK",
+        "Scrum"
+      ]
+    }
+  },
+  "SKILLS": {
+    "WEB": {
+      "TITLE": "Web Development",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION":  "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "Backend: Java (Spring Boot)",
+        "Frontend: Angular",
+        "OpenAPI",
+        "Hibernate",
+        "Kafka"
+      ]
+    },
+    "DESKTOP": {
+      "TITLE": "Desktop Development",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION":  "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "C# (.NET Framework, .NET Core)"
+      ]
+    },
+    "MOBILE": {
+      "TITLE": "Mobile Development",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION":  "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "Android (Java)"
+      ]
+    },
+    "DATABASE": {
+      "TITLE": "Database Management",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION":  "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "MySql", "MSSQL", "Postgres", "Oracle"
+      ]
+    },
+    "VERSION": {
+      "TITLE": "Version Control",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION":  "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "Git", "SVN", "TFS", "Jenkins (CI)"
+      ]
+    },
+    "GRAPHIC": {
+      "TITLE": "Graphic Design",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION":  "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "Photoshop", "Illustrator", "InDesign", "MsOffice"
+      ]
+    },
+    "MANAGEMENT": {
+      "TITLE": "Project Management",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION":  "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "Agile", "SCRUM", "Waterfall"
+      ]
+    },
+    "LANGUAGES": {
+      "TITLE": "Languages",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION":  "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "Native Language: Hungarian",
+        "Serbian: B1 (Speaking) B2 (Reading, Writing)",
+        "English: B1 (Speaking) B2 (Reading, Writing)"
+      ]
+    },
+    "DRIVER": {
+      "TITLE": "Driver’s License",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION":  "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "B2"
+      ]
+    },
+    "CITIZENSHIP": {
+      "TITLE": "Citizenship",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION":  "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "Hungarian", "Serbian"
+      ]
+    },
+    "DIY": {
+      "TITLE": "DIY Project",
+      "DESCRIPTION_TITLE": "Arduino Piano",
+      "DESCRIPTION": "I built this DIY Arduino Mega-based prototype with the goal of later integrating it into a synthesizer. This way, it will not only look more aesthetically pleasing but will also be more appealing and easier to use for children.\n\nI created this device to teach my kids about music in a fun way—without having to learn how to play myself. The prototype works simply: first, an SD card is inserted, which has previously been loaded with MIDI files. The device reads these files and plays the melody.\n\nAdditionally, I included a learning mode: during playback, the corresponding keys light up, allowing children to easily follow the rhythm and learn the basics of playing music.",
+      "VIDEO_ID": "olUCGw4AyJY",
+      "TAGS": []
+    },
+    "HOBBIES": {
+      "TITLE": "Hobbies",
+      "DESCRIPTION_TITLE": "",
+      "DESCRIPTION":  "",
+      "VIDEO_ID": "",
+      "TAGS": [
+        "Chess", "Reading", "DIY"
+      ]
+    }
+  },
+  "LANGUAGE": {
+    "EN": "English",
+    "HU": "Hungary",
+    "SR": "Serbia"
+  }
+}

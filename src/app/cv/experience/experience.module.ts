@@ -1,12 +1,10 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 
-import {HomeRoutingModule} from './home-routing.module';
-import {HomeComponent} from './home.component';
+import {ExperienceRoutingModule} from './experience-routing.module';
+import {ExperienceComponent} from './experience.component';
 import {MatCardModule} from '@angular/material/card';
-import { MatIconModule } from '@angular/material/icon';
-
-
+import { MatChipsModule } from '@angular/material/chips';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
@@ -17,25 +15,26 @@ export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
 
+
 @NgModule({
   declarations: [
-    HomeComponent
+    ExperienceComponent
   ],
   imports: [
     CommonModule,
     MatCardModule,
-    MatIconModule,
-    HomeRoutingModule,
+    ExperienceRoutingModule,
+    MatChipsModule,
     HttpClientModule,
-    TranslateModule.forRoot({
-      loader: {
-        provide: TranslateLoader,
-        useFactory: createTranslateLoader,
-        deps: [HttpClient]
-      }
-    }),
-    FormsModule
+     TranslateModule.forRoot({
+       loader: {
+         provide: TranslateLoader,
+         useFactory: createTranslateLoader,
+         deps: [HttpClient]
+       }
+     }),
+     FormsModule
   ]
 })
-export class HomeModule {
+export class ExperienceModule {
 }

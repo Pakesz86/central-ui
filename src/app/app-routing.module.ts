@@ -6,6 +6,18 @@ import {roleGuard} from "./shared/guards/role.guard";
 
 const routes: Routes = [
   {
+    path: 'cv/education',
+    loadChildren: () => import('./cv/education/education.module').then(m => m.EducationModule)
+  },
+  {
+    path: 'cv/experience',
+    loadChildren: () => import('./cv/experience/experience.module').then(m => m.ExperienceModule)
+  },
+  {
+    path: 'cv/skills',
+    loadChildren: () => import('./cv/skills/skills.module').then(m => m.SkillsModule)
+  },
+  {
     path: 'admin',
     loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule),
     canActivateChild: [roleGuard],
@@ -31,7 +43,7 @@ const routes: Routes = [
   },
   {
     path: '**',
-    redirectTo: ''
+    redirectTo: '/'
   }
   ];
 

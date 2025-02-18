@@ -78,3 +78,14 @@ h2 {
   overflow-wrap: break-word; /* Modern böngészők */
   white-space: normal;
 }
+.video-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+mat-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 1rem;
+}

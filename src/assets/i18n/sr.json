@@ -1,7 +1,7 @@
 {
   "WELCOME": "Dobrodošli na stranicu!",
   "MENU": {
-    "EDUCATION": "Obrazovanje",
+    "EDUCATION": "Diplomiranje",
     "EXPERIENCE": "Iskustvo",
     "HOBBIES": "Hobiji",
     "SKILLS": "Veštine"
@@ -137,9 +137,8 @@
       "TAGS": [
         "Backend: Java (Spring Boot)",
         "Frontend: Angular",
-        "OpenAPI",
-        "Hibernate",
-        "Kafka"
+        "REST Api (OpenAPI)",
+        "Kafka", "WCF"
       ]
     },
     "DESKTOP": {
@@ -166,7 +165,8 @@
       "DESCRIPTION":  "",
       "VIDEO_ID": "",
       "TAGS": [
-        "MySql", "MSSQL", "Postgres", "Oracle"
+        "MySql", "MSSQL", "Postgres", "Oracle",
+        "Hibernate", "JPA"
       ]
     },
     "VERSION": {

@@ -36,7 +36,7 @@
       "ADDRESS": "Szerbia, Szabadka",
       "WEB": "www.ipenergysoftware.rs",
       "TITLE": "Full Stack Fejlesztő",
-      "INTERVAL": "2018.10-től napjainkig",
+      "INTERVAL": "2018.10 - 2025.03",
       "DESCRIPTION": "A cég fő fókusza az energia szektorában van, ahol webes platformokat fejlesztenek a számlázás, terheléselosztás és előrejelzés megkönnyítésére. Az IP Energy leányvállalata, a Navitasoft, EU-s támogatásokat igényel, és Subotkán is végez fejlesztési feladatokat.",
       "ROLES": [
         "Új funkciók fejlesztése backend és frontend oldalon (Spring Boot 2+, Angular)",
@@ -56,7 +56,8 @@
         "Git",
         "Jenkins",
         "Hibernate",
-        "Scrum"
+        "Scrum",
+        "Docker", "Microservices"
       ]
     },
     "EVOSOFT": {
@@ -138,7 +139,8 @@
         "Backend: Java (Spring Boot)",
         "Frontend: Angular",
         "REST Api (OpenAPI)",
-        "Kafka", "WCF"
+        "Kafka", "WCF",
+        "Docker", "Microservices"
       ]
     },
     "DESKTOP": {

@@ -36,7 +36,7 @@
       "ADDRESS": "Srbija, Subotica",
       "WEB": "www.ipenergysoftware.rs",
       "TITLE": "Full Stack Developer",
-      "INTERVAL": "10/2018 do danas",
+      "INTERVAL": "10/2018 do 03/2025",
       "DESCRIPTION": "Glavni fokus kompanije je u sektoru energetike, gde razvijaju web platforme za lakše fakturisanje, balansiranje opterećenja i prognozu. Podružnica IP Energy-a, Navitasoft, zapravo se prijavljuje za evropske fondove i takođe obavlja razvojne zadatke za Suboticu.",
       "ROLES": [
         "Razvijanje novih funkcionalnosti na backendu i frontendu (Spring Boot 2+, Angular)",
@@ -56,7 +56,8 @@
         "Git",
         "Jenkins",
         "Hibernate",
-        "Scrum"
+        "Scrum",
+        "Docker", "Microservices"
       ]
     },
     "EVOSOFT": {
@@ -138,7 +139,8 @@
         "Backend: Java (Spring Boot)",
         "Frontend: Angular",
         "REST Api (OpenAPI)",
-        "Kafka", "WCF"
+        "Kafka", "WCF",
+        "Docker", "Microservices"
       ]
     },
     "DESKTOP": {
